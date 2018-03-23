@@ -1,9 +1,5 @@
-from random import random
-
-a = [int(30 * random()) for i in range(30)]
-
 def bubblesort(a):
-    """Sort the list a to a assend order
+    """Sort the list a to a ascending order
     
     >>> bubblesort([2, 1, 4])
     [1, 2, 4]
